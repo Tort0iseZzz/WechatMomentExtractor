@@ -1,0 +1,10 @@
+WechatMomentExtractor 1.2.0
+This read-only derivative includes adapted SQLCipher decryption and read-only
+process memory scanning from wechatauto-replica 1.2.4.2:
+https://github.com/fanyuantaier/wechatauto-replica
+Original project licensed under the Apache License, Version 2.0; see LICENSE.
+Modifications: removed all UI automation, sending, liking, commenting, message
+reading/listeners and media code from the distributed application; restricted
+database discovery to sns.db/contact.db; added XML parsing, JSON backups,
+read-only desktop viewer, persistent comment selection and isolated tool cache.
+The upstream automation application is not imported or packaged.
